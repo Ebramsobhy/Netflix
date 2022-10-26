@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    direction: rtl;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five,
+.section-six {
+    border-top: 8px solid rgb(69, 69, 69);
+    height: 535px;
+    overflow: hidden;
+} 
+                              /* Section One */ 
+.section-one {
+    background: url(./media/netflixpg.png) center;
+    height: 800px;
+}
+
+
+.section-one .my-nav .right img {
+    height: 100px; 
+    padding: 5px 35px;
+}
+
+
+.section-one .my-nav {
+    display: inline-block;
+ }
+
+.my-language {
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.my-language option {
+    background-color: grey;
+}
+
+.my-nav .left {
+    position: relative;
+    right: 1200px;
+    bottom: 100px;
+}
+
+.section-one .my-nav .left button {
+    margin: auto;
+    align-items: center;
+    font-size: 18px;
+    padding: 7px 17px;
+    margin: 12px 12px;
+    background: #e50914;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-one .my-nav .left button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-one .my-title {
+    text-align: center;
+    padding: 70px 45px;
+}
+
+
+.section-one .my-title .my-content h1 {
+    width: 650px;
+    margin: auto;
+    font-size: 50px;
+}
+
+form h3 {
+    margin: 18px 0;
+}
+
+form .email input {
+    height: 16px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 27px;
+}
+
+
+form .email button {
+    margin: auto;
+    height: 60px;
+    width: 110px;
+    font-size: 27px;
+    background: #e50914;
+    cursor: pointer;
+    margin-left: -5px;
+    border: none;
+    border-top-left-radius:4px ;
+}
+
+form .email button:hover {
+    background-color: #f40612;
+}
+
+form .email button a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-title, .second-title , .third-title {
+    padding-bottom: 10px;
+}
+
+.third-title {
+    font-weight: 100;
+    font-size: 23px;
+}
+
+                                  /* Section Two */ 
+
+.photo-one {
+    position: relative;
+    right: 700px;
+    bottom: 322px;
+}
+
+.video-one {
+    position: absolute;
+    top: 917px;
+    left: 265px;
+    z-index: -1;
+    width: 466px;
+}
+
+.first-sentence {
+    padding-bottom: 25px;
+    font-size: 60px;
+}
+
+.second-sentence {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.first-sentence,
+.second-sentence {
+   position: relative;
+   top: 100px;
+   right: 150px;
+   line-height: 1.5; 
+}
+
+                                      /* Section Three */
+
+
+
+.third-sentence , .fourth-sentence {
+    position: relative;
+    bottom: 100px;
+    right: 650px;
+    line-height: 1.5;
+}
+
+
+
+.third-sentence {
+    padding-bottom: 25px;
+    font-size: 65px;
+    position: relative;
+    bottom: 300px
+    
+}
+
+.fourth-sentence {
+    font-size: 32px;
+    font-weight: 100;
+    position: relative;
+    bottom: 310px;
+}
+.photo-two {
+    width: 550px;
+    position: relative;
+    right: 100px;
+    top: 52px;
+}
+
+.sentence-section-three {
+    position: relative;
+    right: 100px;
+    bottom: 55px;
+}
+
+                                 /* Section Four */ 
+
+
+.photo-three {
+    width: 600px;
+    position: relative;
+    right: 700px;
+    bottom: 200px;
+}
+
+.video-two {
+    width: 355px;
+    position: relative;
+    bottom: 400px;
+    right: 220px;
+    z-index: -1;
+}
+
+.five-sentence , .six-sentence {
+    position: relative;
+    top: 130px;
+    right: 180px;
+    line-height: 1.5;
+}
+
+.five-sentence {
+    font-size: 75px;
+}
+
+.six-sentence {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+                             /* Section Five */ 
+
+.section-five {
+    text-align: center;
+    height: 920px;
+}
+
+.common-question {
+    font-size: 70px;
+    margin: 70px;
+}
+
+.my-question {
+    margin-bottom: 50px;
+  }
+
+.question-one , .question-two , .question-three , 
+.question-four , .question-five , .question-six {
+    background-color: #303030;
+    width: 700px;
+    margin: 9px auto;
+    padding: 18px ;
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+                                /* Section Six */
+
+.contact-us {
+    width: 100%;
+    padding: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 50px 180px 20px 0;
+}
+
+.contact-us {
+    width: 100%;
+    padding: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 50px 17px 20px 0;
+}
+.contact-us a{
+    color: #737373;
+    text-decoration: none;
+    margin: 50px 157px 20px 0;
+}
+
+.my-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-links ul li{
+    padding: 5px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.my-links a {
+    color: #737373;
+    text-decoration: none;
+}
+.my-links a:hover ,.contact-us a:hover{
+    text-decoration: underline;
+}
+
